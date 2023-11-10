@@ -1,0 +1,435 @@
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.header-container {
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.label {
+    font-size: larger;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 87px;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    color: aliceblue;
+    font-weight: 500;
+    border: 0px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+.banner-signUp {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35em;
+    position: relative;
+}
+
+.banner-signUp .image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+}
+
+.banner-signUp .banner {
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner-signUp .banner .para {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.banner-signUp .banner .para h1 {
+    font-size: xxx-large;
+    color: white;
+}
+
+.banner-signUp .banner .input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner-signUp .banner .input .text {
+    height: 45px;
+    width: 470px;
+    border-radius: 10px;
+}
+
+.banner-signUp .banner .input .submit {
+    height: 50px;
+    width: 87px;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    color: aliceblue;
+    font-weight: 500;
+    border: 0px;
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20em;
+    background-color: #F8F9FA;
+    gap: 67px;
+}
+
+.section-container .section-left {
+    height: 100%;
+    width: 29%;
+    margin-left: 25px;
+}
+
+.section-container .section-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-container .section-middle {
+    height: 100%;
+    width: 29%;
+}
+
+.section-container .section-middle img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-container .section-right {
+    height: 100%;
+    width: 29%;
+}
+
+.section-container .section-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-body1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30em;
+}
+
+.section-body1 .body-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section-body1 .body-left p {
+    padding: 0 114px 0 116px;
+    font-size: x-large;
+}
+
+.section-body1 .body-right {
+    height: 100%;
+    width: 50%;
+}
+
+.section-body1 .body-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.section-body2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30em;
+}
+
+.section-body2 .body-left {
+    height: 100%;
+    width: 50%;
+
+}
+
+.section-body2 .body-left img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.section-body2 .body-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section-body2 .body-right p {
+    padding: 0 114px 0 116px;
+    font-size: x-large;
+}
+
+.section-body3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30em;
+}
+
+.section-body3 .body-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section-body3 .body-left p {
+    padding: 0 114px 0 116px;
+    font-size: x-large;
+}
+
+.section-body3 .body-right {
+    height: 100%;
+    width: 50%;
+}
+
+.section-body3 .body-right img {
+    height: 100%;
+    width: 100%;
+}
+
+.people-container {
+    height: 38em;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+.people-container .topic {
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.people-container .topic h1 {
+    font-size: xxx-large;
+}
+
+.people-container .people-image {
+    width: 100%;
+    height: 28em;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.people-container .people-image .left {
+    height: 100%;
+    width: 28%;
+}
+
+.people-container .people-image .left .top {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-container .people-image .left .top .top-image {
+    height: 80%;
+    width: 50%;
+}
+
+.people-container .people-image .left .top .top-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.people-container .people-image .left .bottom {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.people-container .people-image .middle {
+    height: 100%;
+    width: 28%;
+}
+
+.people-container .people-image .middle .top {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-container .people-image .middle .top .top-image {
+    height: 80%;
+    width: 50%;
+}
+
+.people-container .people-image .middle .top .top-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.people-container .people-image .middle .bottom {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.people-container .people-image .right {
+    height: 100%;
+    width: 28%;
+}
+
+.people-container .people-image .right .top {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people-container .people-image .right .top-image {
+    height: 80%;
+    width: 50%;
+}
+
+.people-container .people-image .right .top .top-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.people-container .people-image .right .bottom {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.banner1-signUp {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20em;
+    position: relative;
+}
+
+.banner1-signUp .image img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
+}
+
+.banner1-signUp .banner {
+    height: 100%;
+    width: 100%;
+
+}
+
+.banner1-signUp .banner .para {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.banner1-signUp .banner .para h1 {
+    color: white;
+}
+
+.banner1-signUp .banner .input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.banner1-signUp .banner .input .text {
+    height: 45px;
+    width: 470px;
+    border-radius: 10px;
+}
+
+.banner1-signUp .banner .input .submit {
+    height: 50px;
+    width: 87px;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    color: aliceblue;
+    font-weight: 500;
+    border: 0px;
+}
+
+.footer-container {
+    height: 10em;
+    display: flex;
+}
+
+.footer-container .left {
+    height: 100%;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.footer-container .left ul {
+    margin-left: 60px;
+}
+
+.footer-container .left ul li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.footer-container .left ul li a {
+    color: #0D6EFD;
+}
+
+.footer-container .left ul li a:hover{
+    color: blue;
+}
+
+.footer-container .left p {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.footer-container .right {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
